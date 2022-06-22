@@ -1,6 +1,6 @@
-import * as React from "react"
-import TweetInput from "./TweetInput"
-import "./TweetBox.css"
+import * as React from "react";
+import TweetInput from "./TweetInput";
+import "./TweetBox.css";
 
 export default function TweetBox(props) {
   return (
@@ -13,7 +13,7 @@ export default function TweetBox(props) {
         <TweetSubmitButton />
       </div>
     </div>
-  )
+  );
 }
 
 export function TweetBoxIcons() {
@@ -24,12 +24,12 @@ export function TweetBoxIcons() {
       <i className="far fa-chart-bar"></i>
       <i className="fas fa-map-marker-alt"></i>
     </div>
-  )
+  );
 }
 
 export function TweetCharacterCount(props) {
   // ADD CODE HERE
-  return <span></span>
+  return <span></span>;
 }
 
 export function TweetSubmitButton() {
@@ -38,5 +38,5 @@ export function TweetSubmitButton() {
       <i className="fas fa-plus-circle"></i>
       <button className="tweet-submit-button">Tweet</button>
     </div>
-  )
+  );
 }
