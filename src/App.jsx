@@ -15,9 +15,9 @@ export default function App() {
   const [userProfile, setUserProfile] = useState(codepathUserProfile);
   const [tweets, setTweets] = useState([firstTweet]);
 
-  useEffect(() => {
-    console.log(tweets);
-  });
+  // useEffect(() => {
+  //   console.log(tweets);
+  // });
 
   return (
     <div className="app">

@@ -20,8 +20,8 @@ export default function Feed({ tweets, setTweets, userProfile }) {
       </div>
 
       <div className="twitter-feed">
-        {tweets.map((tweet, index) => {
-          return <Tweet key={index} tweet={tweet} />;
+        {tweets.map((tweet) => {
+          return <Tweet key={tweet.id} tweet={tweet} />;
         })}
       </div>
     </div>
